@@ -1,1 +1,174 @@
-Hello World
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Agile Web Developer 101</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/css/bundle.css">
+  </head>
+  <body>
+    <header></header>
+    <div id="products" class="container">
+      <h3 class="mt-5">Products</h3>
+      <div class="text-center">
+        <input id="product-search-input"
+               type="text" class="form-control"
+        placeholder="enter query">
+      </div>
+      <div class="row no-gutters my-5">
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Nike"
+                data-model="Metcon"
+                data-price="2,500"
+                data-year="2016">
+              <div class="p-2 pl-3 name">
+                <div>Nike Metcon</div>
+                <small class="price">2,500 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/nike_metcon.png"
+                     alt="Nike Metcon" class="img-fluid">
+                <div class="year">2016</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Adidas"
+                data-model="NMD XR1"
+                data-price="8,200"
+                data-year="2017">
+              <div class="p-2 pl-3 name">
+                <div>Adidas NMD XR1</div>
+                <small class="price">8,200 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/adidas_nmd_xr1.png"
+                     alt="Adidas NMD XR1" class="img-fluid">
+                <div class="year">2017</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Nike"
+                data-model="Air Force"
+                data-price="5,000"
+                data-year="2015">
+              <div class="p-2 pl-3 name">
+                <div>Nike Air Force</div>
+                <small class="price">5,000 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/nike_air_force_one.png"
+                     alt="Nike Air Force" class="img-fluid">
+                <div class="year">2015</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Nike"
+                data-model="Max"
+                data-price="3,000"
+                data-year="2017">
+              <div class="p-2 pl-3 name">
+                <div>Nike Max 2017</div>
+                <small class="price">3,000 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/nike_air_max_2017.png"
+                     alt="Nike Max 2017" class="img-fluid">
+                <div class="year">2017</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Nike"
+                data-model="Presto"
+                data-price="5,300"
+                data-year="2016">
+              <div class="p-2 pl-3 name">
+                <div>Nike Presto</div>
+                <small class="price">5,300 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/nike_air_presto.png"
+                     alt="Nike Presto" class="img-fluid">
+                <div class="year">2016</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Nike"
+                data-model="Air Zoom"
+                data-price="8,900"
+                data-year="2017">
+              <div class="p-2 pl-3 name">
+                <div>Nike Air Zoom</div>
+                <small class="price">8,900 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/nike_air_zoom.png"
+                     alt="Nike Air Zoom" class="img-fluid">
+                <div class="year">2017</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Reebok"
+                data-model="Crossfit"
+                data-price="7,900"
+                data-year="2016">
+              <div class="p-2 pl-3 name">
+                <div>Reebok Crossfit</div>
+                <small class="price">7,900 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/reebok_crossfit.png"
+                     alt="Reebok Crossfit" class="img-fluid">
+                <div class="year">2016</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-6 col-sm-6 col-md-4 col-lg-3">
+            <div class="product"
+                data-brand="Reebok"
+                data-model="Zoku Runner"
+                data-price="6,900"
+                data-year="2017">
+              <div class="p-2 pl-3 name">
+                <div>Reebok Zoku Runner</div>
+                <small class="price">6,900 THB</small>
+                <div class="over-circle"></div>
+              </div>
+              <div class="image-wrapper">
+                <img src="/assets/images/shoes/reebok_zoku_runner.png"
+                     alt="Reebok Zoku Runner" class="img-fluid">
+                <div class="year">2017</div>
+              </div>
+            </div>
+          </div>
+      </div>
+    </div>
+    <footer></footer>
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.min.js"
+      integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+      crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+    <script src="/assets/js/bundle.js"></script>
+  </body>
+</html>
